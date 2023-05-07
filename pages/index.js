@@ -2,9 +2,9 @@ import Head from "next/head";
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
-  AiFillGithub,
-  AiOutlineAntDesign,
-} from "react-icons/ai";
+  AiFillGithub, 
+}  
+from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 import deved from "../public/dev-ed-wave.jpg";
@@ -44,16 +44,7 @@ export default function Home() {
                   Hire me
                 </a>
               </li>
-              <li>
-                <a
-                  className="bg-teal-500 text-white px-4 py-2 border-none rounded-md "
-                  href="mailto: ali.m.homayed@gmail.com"
-                >
-                  Contact me
-                </a>
-              </li>
-
-            </ul>
+              </ul>
           </nav>
           <div className="mx-auto rounded-full w-40 h-40  relative overflow-hidden mt-20 ">
             <Image src={deved} layout="fill" objectFit="cover" />
