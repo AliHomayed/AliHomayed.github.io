@@ -27,9 +27,9 @@ export default function Home() {
       </Head>
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between dark:text-white">
+          <nav className="py-10 mb-12 flex justify-between dark:text-white ">
             <h1 className="font-burtons text-xl">developedbyAli</h1>
-            <ul className="flex items-center">
+            <ul className="flex items-center ">
               <li>
                 <BsFillMoonStarsFill
                   onClick={() => setDarkMode(!darkMode)}
@@ -117,12 +117,13 @@ export default function Home() {
             </div>
           </div>
         </section>
-      </main>
-      <footer className=" text-sm text-center text-gray-400  bg-white px-10  dark:bg-gray-900 md:px-20 lg:px-40 " >
+        <footer className=" text-sm text-center text-gray-400  bg-white px-10  dark:bg-gray-900 md:px-20 lg:px-40 " >
       <a href="https://www.flaticon.com/free-icons/graphic-design" title="graphic design icons">Graphic design icons created by Freepik - Flaticon</a>
       <a href="https://www.flaticon.com/free-icons/learning" title="learning icons">Learning icons created by Paul J. - Flaticon</a>
       <a href="https://www.flaticon.com/free-icons/flexibility" title="flexibility icons">Flexibility icons created by Dewi Sari - Flaticon</a>
     </footer>
+      </main>
+     
     </div>
     
   );
