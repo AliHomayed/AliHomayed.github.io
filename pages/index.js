@@ -28,7 +28,7 @@ export default function Home() {
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white ">
-            <h1 className="font-burtons text-xl">developedbyAli</h1>
+            <h1 className="font-sans-serif text-xl">DevelopedByAli</h1>
             <ul className="flex items-center ">
               <li>
                 <BsFillMoonStarsFill
@@ -54,10 +54,10 @@ export default function Home() {
               Ali Homayed
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              Developer and designer.
+              developer and designer.
             </h3>
             <p className="text-md py-5 leading-8 text-gray-600 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              A web developer specialized in Frontend with substantial knowledge in Backend.
+              A web developer specialized in <span className="text-teal-500">Frontend</span> with substantial knowledge in <span className="text-teal-500">Backend</span>.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400 ">
               <a href="https://github.com/AliHomayed">
@@ -103,7 +103,7 @@ export default function Home() {
                 Coding
               </h3>
               <p className="py-2">
-                Using the latest updates in Visual Studio, javascript, react.js, and next.js.
+                Using the latest updates in Vs, HTML, CSS, Js, React.js, and Next.js.
               </p>
 
             </div>
