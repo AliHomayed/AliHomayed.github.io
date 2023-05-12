@@ -2,9 +2,9 @@ import Head from "next/head";
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
-  AiFillGithub, 
-}  
-from "react-icons/ai";
+  AiFillGithub,
+}
+  from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 import deved from "../public/dev-ed-wave.jpg";
@@ -15,7 +15,7 @@ import Image from "next/image";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
-  const [isHovering, setIsHovered] = useState(false);
+
 
 
   return (
@@ -44,7 +44,7 @@ export default function Home() {
                   Hire me
                 </a>
               </li>
-              </ul>
+            </ul>
           </nav>
           <div className="mx-auto rounded-full w-40 h-40  relative overflow-hidden mt-20 ">
             <Image src={deved} layout="fill" objectFit="cover" />
@@ -77,7 +77,7 @@ export default function Home() {
         <section>
           <div>
             <h3 className="text-4xl py-1 dark:text-white ">The Journey</h3>
-            <p className="text-lg py-2 leading-8 text-gray-800 dark:text-gray-200">
+            <p className="text-lg py-2 leading-8 text-gray-700 dark:text-gray-200">
               Since the beginning of my journey as a Mechatronics engineer, I admired coding and started learning new languages till I felt the true passion while creating my first
               <span className="text-teal-500"> web application </span>
               . Then, I started my journey of <span className="text-teal-500">self-learning</span>,
@@ -86,31 +86,32 @@ export default function Home() {
 
           </div>
           <div className="lg:flex gap-10">
-            <div className="text-center  text-gray-800 shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-            <Image src={design} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2  ">
+
+            <div className="text-center  shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+              <Image src={code} width={100} height={100} />
+              <h3 className="text-lg font-semibold pt-8 pb-2 ">
+                Coding
+              </h3>
+              <p className="py-2 text-gray-700">
+                Using the latest updates in Vs, HTML, CSS, Js, React.js, and Next.js.
+              </p>
+
+            </div>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+              < Image src={design} width={100} height={100} />
+              <h3 className="text-l font-semibold  pt-8 pb-2">
                 Design
               </h3>
-              <p className="py-2">
+              <p className="py-2 text-gray-700">
                 Creating elegant designs suited for your needs following core
                 design theory.
               </p>
 
             </div>
-            <div className="text-center   text-gray-800 shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">
-                Coding
-              </h3>
-              <p className="py-2">
-                Using the latest updates in Vs, HTML, CSS, Js, React.js, and Next.js.
-              </p>
-
-            </div>
-            <div className="text-center  text-gray-800 shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={consulting} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">Flexibility</h3>
-              <p className="py-2">
+              <h3 className="text-lg font-semibold pt-8 pb-2 ">Flexibility</h3>
+              <p className="py-2 text-gray-700">
                 Having the skills of being a self-learner as well as using what I have learnt effiecently.
               </p>
 
@@ -118,13 +119,14 @@ export default function Home() {
           </div>
         </section>
         <footer className=" text-sm text-center text-gray-400  bg-white px-10  dark:bg-gray-900 md:px-20 lg:px-40 " >
-      <a href="https://www.flaticon.com/free-icons/graphic-design" title="graphic design icons">Graphic design icons created by Freepik - Flaticon</a>
-      <a href="https://www.flaticon.com/free-icons/learning" title="learning icons">Learning icons created by Paul J. - Flaticon</a>
-      <a href="https://www.flaticon.com/free-icons/flexibility" title="flexibility icons">Flexibility icons created by Dewi Sari - Flaticon</a>
-    </footer>
+          <a href="https://www.flaticon.com/free-icons/code" title="code icons">Code icons created by Royyan Wijaya - Flaticon</a>
+          <a href="https://www.flaticon.com/free-icons/brain" title="brain icons">Brain icons created by Vitaly Gorbachev - Flaticon</a>
+          <a href="https://www.flaticon.com/free-icons/brush" title="brush icons">Brush icons created by Freepik - Flaticon</a>
+        </footer>
       </main>
-     
+
     </div>
-    
+
   );
 }
+
