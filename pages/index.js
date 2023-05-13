@@ -25,8 +25,8 @@ export default function Home() {
       </Head>
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
-          <nav className="py-8  mb-4 flex justify-between dark:text-white">
-          <h1 className="font-sans-serif text-2xl">DevelopedByAli</h1>
+          <nav className="py-6 mb-4 flex justify-between dark:text-white">
+          <h1 className="font-sans-serif text-xl">DevelopedByAli</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
@@ -36,7 +36,7 @@ export default function Home() {
               </li>
               <li >
                 <a
-                  className="bg-teal-500 text-white px-3 py-2 text-xl border-none rounded-md ml-8"
+                  className="bg-teal-500 text-white px-3 py-1 text-xl border-none rounded-md ml-8"
                   href="https://github.com/AliHomayed/CV.git"
                 >
                   Hire me
