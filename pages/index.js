@@ -37,7 +37,7 @@ export default function Home() {
               <li >
                 <a
                   className="bg-teal-500 text-white px-3 py-1 text-xl border-none rounded-md ml-8"
-                  href="https://github.com/AliHomayed/CV.git"
+                  href="https://github.com/AliHomayed/Cv/blob/main/AliHomayed.pdf"
                 >
                   Hire me
                 </a>
@@ -48,13 +48,13 @@ export default function Home() {
           <div className="mx-auto rounded-full w-40 h-40  relative overflow-hidden my-4 ">
             <Image src={deved} layout="fill" objectFit="cover" />
           </div>
-          <h2 className="text-5xl py-1 text-teal-600 font-medium dark:text-teal-400 md:text-5xl">
+          <h2 className="text-4xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-5xl">
               Ali Homayed
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              developer and designer.
+              Developer and designer.
             </h3>
-            <p className="text-md py-5 leading-8 text-gray-600 dark:text-gray-200 my-2 max-w-xl mx-auto md:text-xl">
+            <p className="text-md py-2 leading-8 text-gray-600 dark:text-gray-200 my-2 max-w-xl mx-auto md:text-xl">
               A web developer specialized in Frontend with substantial knowledge in Backend.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400 ">
