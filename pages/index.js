@@ -36,7 +36,7 @@ export default function Home() {
               </li>
               <li >
                 <a
-                  className="bg-teal-500 text-white px-4 py-2 text-xl border-none rounded-md ml-8"
+                  className="bg-teal-500 text-white px-3 py-2 text-xl border-none rounded-md ml-8"
                   href="https://github.com/AliHomayed/CV.git"
                 >
                   Hire me
