@@ -87,7 +87,7 @@ export default function Home() {
                 Coding
               </h3>
               <p className="py-2 text-gray-700">
-                Using the latest updates in Vs, HTML, CSS, Js, React.js, and Next.js.
+                Using the latest updates in Vs, HTML, CSS, Js, React.js, Next.js, Node.js, and Express.js.
               </p>
 
             </div>
