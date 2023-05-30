@@ -1,6 +1,6 @@
 import Head from "next/head";
 import {
-  AiFillTwitterCircle,
+  AiFillInstagram,
   AiFillLinkedin,
   AiFillGithub,
 } from "react-icons/ai";
@@ -64,8 +64,8 @@ export default function Home() {
               <a href="https://www.linkedin.com/in/ali-homayed-72025a262/">
                 <AiFillLinkedin />
               </a>
-              <a href="https://twitter.com/Ali_Homayedd">
-                <AiFillTwitterCircle />
+              <a href="https://www.instagram.com/ali.homayed/">
+                <AiFillInstagram />
               </a>
 
             </div>
