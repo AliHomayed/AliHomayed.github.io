@@ -13,6 +13,7 @@ import consulting from "../public/consulting.png";
 import Image from "next/image";
 
 
+
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
 
@@ -74,10 +75,16 @@ export default function Home() {
         <section>
           <div>
           <h3 className="text-4xl py-1 dark:text-white ">The Journey</h3>
-            <p className="text-lg py-2 leading-8 text-gray-700 dark:text-gray-200">
-              Since the beginning of my journey as a Mechatronics engineer, I admired coding and started learning new languages till I felt the true passion while creating my first
-               web application. Then, I started my journey of self-learning,
-              and proudly, I was able to achieve my goal of becoming a web developer.
+            <p className="text-lg py-3 leading-8 text-gray-700 dark:text-gray-200">
+              I cough fire coding. <br /> 
+
+              I always thought my dream was to become an a engineer, and to work in the industrial field. It seemed like an appropriate dream given my BA in Mechatronics Engineering. But, I yearned to learn something different. <br /> 
+
+              And in that moment it happened; I have found my missing spark that ignited instantly when I clicked play on my first web developing tutorial. Since then, I became insatiable as it calls to all my passions.<br /> 
+
+              I admire following the responsive design principles and watch my web pages still looking amazing after shrinking to mobile screens.<br /> 
+
+              My specialties includes being a fast self-learner, learning new skills, programming languages, responsive design principles, problem solving, and website optimization. Thus far I have HTML, CSS, Tailwind CSS, jQuery, JavaScript, APIs, React.js, and Git/GitHub. I am enthusiastically still grasping onto other programming languages , frameworks, or principles as to keep my knowledge up to date.
             </p>
           </div>
           <div className="lg:flex gap-10">
@@ -87,7 +94,7 @@ export default function Home() {
                 Coding
               </h3>
               <p className="py-2 text-gray-700">
-                Using the latest updates in Vs, HTML, CSS, Js, React.js, Next.js, Node.js, and Express.js.
+                Using the latest updates in VisualStudio, HTML, CSS, JavaScript, React.js, and Next.js.
               </p>
 
             </div>
@@ -111,6 +118,9 @@ export default function Home() {
               </div>
           </div>
         </section>
+       
+
+
         <footer className=" text-sm text-center text-gray-400  bg-white px-10  dark:bg-gray-900 md:px-20 lg:px-40 pb-1" >
           <a href="https://www.flaticon.com/free-icons/code" title="code icons">Code icons created by Royyan Wijaya - Flaticon</a>
           <a href="https://www.flaticon.com/free-icons/brain" title="brain icons">Brain icons created by Vitaly Gorbachev - Flaticon</a>
