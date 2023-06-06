@@ -75,7 +75,7 @@ export default function Home() {
         <section>
           <div>
           <h3 className="text-4xl py-1 dark:text-white ">The Journey</h3>
-            <p className="text-lg py-3 leading-8 text-gray-700 dark:text-gray-200">
+            <p className="text-lg py-3 leading-8  text-gray-700 dark:text-gray-200 md:px-2">
               I cough fire coding. <br /> 
 
               I always thought my dream was to become an a engineer, and to work in the industrial field. It seemed like an appropriate dream given my BA in Mechatronics Engineering. But, I yearned to learn something different. <br /> 
